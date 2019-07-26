@@ -8,8 +8,8 @@ It is a project under which different users can register,after filling in some d
 ### Advanced Features Implemented :
 #### Reporting Incidents:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(93).png)
-#### Subscribe For Latest News:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(602).png)
+#### NASA DataSet Used
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(534).png)
 #### Password Encryption Base 64: 
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(600).png)
 #### Upcoming Matches CountDown: 
