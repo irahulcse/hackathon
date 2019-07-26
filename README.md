@@ -1,4 +1,4 @@
-# Dream11
+# FIERY_OK
 It is a project under which different users can register,after filling in some details and then can create their team of upcoming International Cricket Matches by choosing a mixed team of 11 players,whom they think will perform well in the match.They have to choose mix players from both the teams and some validations are set according to which their team selection will be done.Once fixed no of users are created for a particular match then user cann't create more teams.Once the match is over Admin Updates points of the players on the basis of their performance.User with maximum points will win the competition. 
 
 #### Website's Home Page:
@@ -6,8 +6,8 @@ It is a project under which different users can register,after filling in some d
 
 
 ### Advanced Features Implemented :
-#### Application User Count:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(601).png)
+#### Reporting Incidents:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(93).png)
 #### Subscribe For Latest News:
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(602).png)
 #### Password Encryption Base 64: 
