@@ -115,7 +115,7 @@ If you receive a User Account Control notice, choose Yes.
 #### Admin Panel(After Login):
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(603).png)
 #### Registration Form For User:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(609).png)
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(95).png)
 #### Admin Point Updater :
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(604).png)
 #### Admin Updating Matches List:
