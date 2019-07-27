@@ -120,6 +120,5 @@ If you receive a User Account Control notice, choose Yes.
 ## Furture Scope:
 * Cross Platform Apps for the Project, so that the Fiery_Ok is easily accessible to user easily anywhere and can update any fire event to aware people and to Secure less damage.
 *	We can check location from GPS that from which location the new user has registered the incident.So,we can verify that.
-* The system could also be enhanced by adding the Machine Learning to the project that is it can be used in future to predict the result of the match using Azure Machine Learning.
-* Android and IOS Apps for this game.So,that users can access it on Mobile Devices too. 
-
+* The system could also be enhanced by adding the IBM Cloud to detect the intensity of the fire by Vision API in order to give accurate results.
+* If Govt Approves it can be enhanced and made a global App.
