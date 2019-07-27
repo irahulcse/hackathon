@@ -1,5 +1,5 @@
 # FIERY_OK
-It is a project made in International NASA Space Apps Hackathon.under which different users can register,after filling in some details and then can create their team of upcoming International Cricket Matches by choosing a mixed team of 11 players,whom they think will perform well in the match.They have to choose mix players from both the teams and some validations are set according to which their team selection will be done.Once fixed no of users are created for a particular match then user cann't create more teams.Once the match is over Admin Updates points of the players on the basis of their performance.User with maximum points will win the competition. 
+It is a project made in International NASA Space Apps Hackathon.under this project task was to Spot The Fire.So,what it does was that  . 
 
 #### Website's Home Page:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(532).png)
