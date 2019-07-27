@@ -3,17 +3,13 @@ It is a project made in International NASA Space Apps Hackathon.under this proje
 
 #### Website's Home Page:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(532).png)
-
-
 ### Advanced Features Implemented :
 #### Reporting Incidents:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(93).png)
 #### NASA DataSet Used
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(534).png)
-
-#### Upcoming Matches CountDown: 
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(608).png)
-
+#### Email Sent To Users: 
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(639).png)
 
 + [Development](#development)
 + [Contribute](#contribute)
