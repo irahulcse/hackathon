@@ -93,15 +93,12 @@ If you receive a User Account Control notice, choose Yes.
     Next, status screens appear that show the progress of your Visual Studio installation.
 
 ## Features
-+ Admin can create players.Details of players are also updated by Admin.
++ Admin can see all the Uploaded Fire Incidents claimed by the Users.
 + Admin is more of the supreme or you can say a Senior Vice President Person who commands and monitors the progress.
-+ Admin adds different Venues,Matches,Countries etc. and so on.
-+ Once match is over then Admin updates the points of the players on the basis of fixed criteria already set(say like 2 points for every wicket,1.5 points for taking a catch and so on).
-+ Users have to do only one thing that is creating their best possible team that consists of Validations like(Maximum 1 Wicket Keeper,Maximum 4 Bowlers,Maximum 5 Batsman,Maximum 2 AllRounders).
-+ In order to see the results User need to signin.
-+ Login and Logout Functionaly is with the help of User.Identity Package.
-+ Applied Hit Counter that displays number of users of Website.
-+ Password is Encrypted in Base 64 before saving into the database.
++ User can take a snapshot and upload the Photograph of the Incident.
++ Location of User is Automatically tracked and is sent to the Admin with all other details User Uploads.
++ Admin just click one button and All the People of that city who are registerd with City are awared by a Email.
++ Email is sent to the Police Station,Fire Station and Local Hospitals too of the City.
 
 ## Screenshots
 
