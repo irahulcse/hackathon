@@ -10,8 +10,7 @@ It is a project made in International NASA Space Apps Hackathon.under this proje
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(93).png)
 #### NASA DataSet Used
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(534).png)
-#### Password Encryption Base 64: 
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(600).png)
+
 #### Upcoming Matches CountDown: 
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(608).png)
 
@@ -110,24 +109,14 @@ If you receive a User Account Control notice, choose Yes.
 
 ## Screenshots
 
-#### User and Admin Login Portal:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(599).png)
-#### Admin Panel(After Login):
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(603).png)
 #### Registration Form For User:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(95).png)
-#### Admin Point Updater :
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(604).png)
-#### Admin Updating Matches List:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(606).png)
-#### Admin Creating Players:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(605).png)
-#### Admin Updating Venues
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(607).png)
-#### User Account Management:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(612).png)
-#### Checking Results:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(610).png)
+#### Contact Us :
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(637).png)
+#### About Us:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(636).png)
+#### Recent Incidents:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(635).png)
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(611).png)
 
