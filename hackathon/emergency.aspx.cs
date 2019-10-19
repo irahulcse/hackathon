@@ -70,4 +70,14 @@ public partial class Default4 : System.Web.UI.Page
             con.Close();
         }
     }
+
+    protected void TextBox1_TextChanged(object sender, EventArgs e)
+    {
+
+    }
+
+    protected void TextBox2_TextChanged(object sender, EventArgs e)
+    {
+
+    }
 }

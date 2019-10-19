@@ -26,7 +26,7 @@ public partial class Default2 : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlCommand cmd = new SqlCommand("select t.email from register_hck t INNER JOIN emergency t3 ON t.address=t3.address ", con);
+        SqlCommand cmd = new SqlCommand("select t.email,t3.email from register_hck t INNER JOIN emergency t3 ON t.address=t3.address ", con);
         ArrayList emailArray = new ArrayList();
         SqlDataReader dr = cmd.ExecuteReader();
         while (dr.Read())
@@ -45,8 +45,8 @@ public partial class Default2 : System.Web.UI.Page
             smtpclient.Port = 587;
             mail.From = fromaddress;
             mail.To.Add(email);
-            mail.Subject = "<h2>Sended by my own application created in asp.net</h2>";
-            mail.Body = "<html><head><title></title></head><body><p>There is a fire in your city look at in our website and verify it:</p></body></html> ";
+            mail.Subject = "Forest Fire in Your Area";
+            mail.Body = "<html><head><title></title></head><body><p>There is a fire in your city look at in our website and aware others also</p></body></html> ";
             mail.IsBodyHtml = true;
             smtpclient.EnableSsl = true;
             smtpclient.DeliveryMethod = SmtpDeliveryMethod.Network;

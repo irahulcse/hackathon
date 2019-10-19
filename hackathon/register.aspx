@@ -93,7 +93,7 @@
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
 							<li><a href="index.aspx">Home</a></li>
-							<li class="active"><a href="incident.aspx">Recent Incident</a></li>
+							<li class="active"><a href="realtimedata.aspx">Recent Incidents</a></li>
 							
 							<li><a href="about.aspx">About</a></li>
 							<li><a href="contact.aspx">Contact</a></li>
@@ -182,6 +182,16 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
-    </body>
+     <script type="text/javascript">
+      /* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+      (function(d, m){
+        var kommunicateSettings = {"appId":"212c672c7416478349262ab0d4dc8823c","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+      })(document, window.kommunicate || {});
+        </script>
+        </body>
 
 </html>
