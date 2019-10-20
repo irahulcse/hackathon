@@ -12,6 +12,8 @@ It is a project made in International NASA Space Apps Hackathon.under this proje
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture1.jpg)
 #### Database Backup in Microsoft Azure:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture3.jpg)
+#### Telegram Bot for help:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture4.jpg)
 
 + [Development](#development)
 + [Contribute](#contribute)
@@ -103,6 +105,8 @@ If you receive a User Account Control notice, choose Yes.
 + Email is sent to the Police Station,Fire Station and Local Hospitals too of the City.
 
 ## Screenshots
+#### Chatbot Integrated in the Website:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture5.jpg)
 
 #### Registration Form For User:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(95).png)
