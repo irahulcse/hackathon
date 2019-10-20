@@ -7,7 +7,7 @@ It is a project made in International NASA Space Apps Hackathon.under this proje
 #### Reporting Incidents:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(93).png)
 #### Email Sent To Users: 
-![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(639).png)
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture2.jpg)
 #### NASA DataSet Used
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture1.jpg)
 
