@@ -10,6 +10,8 @@ It is a project made in International NASA Space Apps Hackathon.under this proje
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture2.jpg)
 #### NASA DataSet Used
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture1.jpg)
+#### Database Backup in Microsoft Azure:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(635).png)
 
 + [Development](#development)
 + [Contribute](#contribute)
@@ -108,8 +110,7 @@ If you receive a User Account Control notice, choose Yes.
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(637).png)
 #### About Us:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(636).png)
-#### Recent Incidents:
-![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(635).png)
+
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(611).png)
 
