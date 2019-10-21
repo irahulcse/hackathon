@@ -118,7 +118,7 @@ If you receive a User Account Control notice, choose Yes.
 #### About Us:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(636).png)
 #### Used Dataset:
-![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Capture.jpg)
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Capture.JPG)
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(611).png)
 
