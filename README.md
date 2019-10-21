@@ -103,6 +103,9 @@ If you receive a User Account Control notice, choose Yes.
 + Location of User is Automatically tracked and is sent to the Admin with all other details User Uploads.
 + Admin just click one button and All the People of that city who are registerd with City are awared by a Email.
 + Email is sent to the Police Station,Fire Station and Local Hospitals too of the City.
++ Google Assistant devloped for the website and Integrated with the website which worked as a chatbot for the website.
++ Made a telegram bot for the same Web App.
++Implemented Google Maps in it in order to show the Fire hazards places according to the Nasa Dataset.
 
 ## Screenshots
 #### Chatbot Integrated in the Website:
