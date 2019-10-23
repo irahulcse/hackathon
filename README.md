@@ -34,7 +34,7 @@ The front end is built on *[ASP.NET C#]*, you can use that in Visual Studio an O
 ### Default Login Credentials For Admin
 | Username      | Password |
 | ------------- | ------------- |
-|    ADMIN      | ADMIN |
+|    Admin      | Admin |
 
 ### Default Login Credentials For User
 | Username | Password |
