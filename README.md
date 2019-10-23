@@ -39,7 +39,7 @@ The front end is built on *[ASP.NET C#]*, you can use that in Visual Studio an O
 ### Default Login Credentials For User
 | Username | Password |
 | ------------- | ------------- |
-| dk | 12345|
+| dk | 111|
 
 
 ### Technology Used
