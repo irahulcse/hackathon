@@ -106,6 +106,8 @@ If you receive a User Account Control notice, choose Yes.
 + Google Assistant devloped for the website and Integrated with the website which worked as a chatbot for the website.
 + Made a telegram bot for the same Web App.
 +Implemented Google Maps in it in order to show the Fire hazards places according to the Nasa Dataset.
++ Database is Uploaded in Azure and it is connection string is called in localhost.
++Database backup is also created and is stored in local PC.
 
 ## Screenshots
 #### Chatbot Integrated in the Website:
