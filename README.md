@@ -96,6 +96,10 @@ If you receive a User Account Control notice, choose Yes.
  <br/>For example, choose the "ASP.NET and web development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.<br/>
        <br/> 2. After you choose the workload(s) you want, choose Install.
     Next, status screens appear that show the progress of your Visual Studio installation.
+Step 5 - Select the installation location (Optional)
+You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.
+![](https://docs.microsoft.com/en-us/visualstudio/install/media/vs-2019/vs-installer-installation-locations.png?view=vs-2019)
+
 
 ## Features
 + Admin can see all the Uploaded Fire Incidents claimed by the Users.
