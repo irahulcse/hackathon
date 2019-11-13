@@ -100,7 +100,7 @@ If you receive a User Account Control notice, choose Yes.
 Step 5 - Select the installation location (Optional)
 You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.<br/>
 <br/>
-![](https://docs.microsoft.com/en-us/visualstudio/install/media/vs-2019/vs-installer-installation-locations.png?view=vs-2019)
+ ![](https://docs.microsoft.com/en-us/visualstudio/install/media/vs-2019/vs-installer-installation-locations.png?view=vs-2019)
 
 
 ## Features
