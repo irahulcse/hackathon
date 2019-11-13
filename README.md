@@ -1,5 +1,5 @@
 # FIERY_OK V2.0
-It is a project made in International NASA Space Apps Hackathon.under this project task was to Spot The Fire.So,what it does was that in case of any emergency situation User just click the picture of that incident and upload it.His location is automatically tracked and Admin can see that Uploaded picture in his panel with all the details.So,he will just click a button and Email will be sent to all the Users of the city,Police Station and Fire Brigade.Further on now actions depend on them. 
+It is a project made in International NASA Space Apps Hackathon.under this project task was to Spot The Fire.So,what it does was that in case of any emergency situation User just click the picture of that incident and upload it.His location is automatically tracked and Admin can see that Uploaded picture in his panel with all the details.So,he will just click a button and Email will be sent to all the Users of the city,Police Station and Fire Brigade.Further on now actions depend on them.Chatbot Facilties are also present in the project as well as NASA Dataset that contains all fire places are displayed using MAPS pointer. 
 Video of Working Website is: https://youtu.be/uXo1yTw36ws
 
 #### Website's Home Page:
