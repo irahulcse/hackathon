@@ -1,5 +1,6 @@
-# FIERY_OK
-It is a project made in International NASA Space Apps Hackathon.under this project task was to Spot The Fire.So,what it does was that in case of any emergency situation User just click the picture of that incident and upload it.His location is automatically tracked and Admin can see that Uploaded picture in his panel with all the details.So,he will just click a button and Email will be sent to all the Users of the city,Police Station and Fire Brigade.Further on now actions depend on them. 
+# FIERY_OK V2.0
+It is a project made in International NASA Space Apps Hackathon.under this project task was to Spot The Fire.So,what it does was that in case of any emergency situation User just click the picture of that incident and upload it.His location is automatically tracked and Admin can see that Uploaded picture in his panel with all the details.So,he will just click a button and Email will be sent to all the Users of the city,Police Station and Fire Brigade.Further on now actions depend on them.Chatbot Facilties are also present in the project as well as NASA Dataset that contains all fire places are displayed using MAPS pointer. 
+Video of Working Website is: https://youtu.be/uXo1yTw36ws
 
 #### Website's Home Page:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(532).png)
@@ -7,9 +8,13 @@ It is a project made in International NASA Space Apps Hackathon.under this proje
 #### Reporting Incidents:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(93).png)
 #### Email Sent To Users: 
-![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(639).png)
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture2.jpg)
 #### NASA DataSet Used
-![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(534).png)
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture1.jpg)
+#### Database Backup in Microsoft Azure:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture0.jpg)
+#### Telegram Bot for help:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture4.jpg)
 
 + [Development](#development)
 + [Contribute](#contribute)
@@ -30,12 +35,12 @@ The front end is built on *[ASP.NET C#]*, you can use that in Visual Studio an O
 ### Default Login Credentials For Admin
 | Username      | Password |
 | ------------- | ------------- |
-|    ADMIN      | ADMIN |
+|    Admin      | Admin |
 
 ### Default Login Credentials For User
 | Username | Password |
 | ------------- | ------------- |
-| dk | 12345|
+| dk | 111|
 
 
 ### Technology Used
@@ -87,10 +92,14 @@ If you receive a User Account Control notice, choose Yes.
 <br/>Step 4 - Choose workloads
    After the installer is installed, you can use it to customize your installation by selecting the feature sets—or workloads—that you      want. Here's how.<br/>
     <br/>1. Find the workload you want in the Installing Visual Studio screen.<br/>
- <br/>![](https://docs.microsoft.com/en-us/visualstudio/install/media/vs-installer-installing-workloads.png?view=vs-2019)<br/>
- <br/>For example, choose the ".NET desktop development" workload. It comes with the default core editor, which includes basic code        editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated    source code control.<br/>
+ <br/>![](https://docs.microsoft.com/en-us/visualstudio/install/media/vs-2019/vs-installer-workloads.png?view=vs-2019)<br/>
+ <br/>For example, choose the "ASP.NET and web development" workload. It comes with the default core editor, which includes basic code editing support for over 20 languages, the ability to open and edit code from any folder without requiring a project, and integrated source code control.<br/>
        <br/> 2. After you choose the workload(s) you want, choose Install.
-    Next, status screens appear that show the progress of your Visual Studio installation.
+    Next, status screens appear that show the progress of your Visual Studio installation.<br/>
+<br/>Step 5 - Select the installation location (Optional)
+ You can reduce the installation footprint of Visual Studio on your system drive. You can choose to move the download cache, shared    components, SDKs, and tools to different drives, and keep Visual Studio on the drive that runs it the fastest.<br/>
+ <br/>![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/vs-installer-installation-locations.png)<br>
+
 
 ## Features
 + Admin can see all the Uploaded Fire Incidents claimed by the Users.
@@ -99,8 +108,15 @@ If you receive a User Account Control notice, choose Yes.
 + Location of User is Automatically tracked and is sent to the Admin with all other details User Uploads.
 + Admin just click one button and All the People of that city who are registerd with City are awared by a Email.
 + Email is sent to the Police Station,Fire Station and Local Hospitals too of the City.
++ Google Assistant devloped for the website and Integrated with the website which worked as a chatbot for the website.
++ Made a telegram bot for the same Web App.
++Implemented Google Maps in it in order to show the Fire hazards places according to the Nasa Dataset.
++ Database is Uploaded in Azure and it is connection string is called in localhost.
++Database backup is also created and is stored in local PC.
 
 ## Screenshots
+#### Chatbot Integrated in the Website:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Picture5.jpg)
 
 #### Registration Form For User:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(95).png)
@@ -108,8 +124,8 @@ If you receive a User Account Control notice, choose Yes.
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(637).png)
 #### About Us:
 ![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(636).png)
-#### Recent Incidents:
-![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Screenshot%20(635).png)
+#### Used Dataset:
+![](https://github.com/DhruvKinger/hackathon/blob/master/Forgithub/Capture.JPG)
 #### Password Changing Panel:
 ![](https://github.com/DhruvKinger/Dream11/blob/master/Forgithub/Screenshot%20(611).png)
 
