@@ -49,8 +49,14 @@ public partial class login : System.Web.UI.Page
         }
         if (d == 2)
         {
-
-            Response.Redirect("index.aspx");
+            if (TextBox1.Text == "Admin" && Textbox2.Text == "Admin")
+            {
+                Response.Redirect("Admin/email_sender.aspx");
+            }
+            else
+            {
+                Response.Redirect("index.aspx");
+            }
         }
 
     }

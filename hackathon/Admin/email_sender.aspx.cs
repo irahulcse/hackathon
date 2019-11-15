@@ -10,10 +10,14 @@ using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 using System.Collections;
+using System.IO;
+using System.Drawing;
+using System.Drawing.Imaging;
 
 public partial class Default2 : System.Web.UI.Page
 {
     SqlConnection con = new SqlConnection();
+    SqlCommand com;
     protected void Page_Load(object sender, EventArgs e)
     {
         con.ConnectionString = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
@@ -21,12 +25,34 @@ public partial class Default2 : System.Web.UI.Page
         {
             con.Open();
         }
+
+        //var str = "select * from emergency";
+        //com = new SqlCommand(str, con);
+        //MemoryStream stream = new MemoryStream();
+        //byte[] image = (byte[])com.ExecuteScalar();
+        //stream.Write(image, 0, image.Length);
+        //Bitmap bitmap = new Bitmap(stream);
+        //Response.ContentType = "image/Jpeg";
+        //bitmap.Save(Response.OutputStream, ImageFormat.Jpeg);
+        //con.Close();
+        //stream.Close();
     }
 
+    //protected void grd_RowDataBound(object sender, GridViewRowEventArgs e)
+    //{
+    //    if (e.Row.RowType == DataControlRowType.DataRow)
+    //    {
+    //        System.Web.UI.HtmlControls.HtmlImage imageControl = (System.Web.UI.HtmlControls.HtmlImage)e.Row.FindControl("imageControl");
+    //        if (((DataRowView)e.Row.DataItem)["image"] != DBNull.Value)
+    //        {
+    //            imageControl.Src = "data:image/png;base64," + Convert.ToBase64String((byte[])(((DataRowView)e.Row.DataItem))["image"]);
+    //        }
+    //    }
+    //}
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlCommand cmd = new SqlCommand("select t.email,t3.email from register_hck t INNER JOIN emergency t3 ON t.address=t3.address ", con);
+        SqlCommand cmd = new SqlCommand(" select DISTINCT t.email from register_hck t,emergency t1 where t.address=t1.address union select DISTINCT t1.email from register_hck t, emergency t1 where t.address = t1.address ", con);
         ArrayList emailArray = new ArrayList();
         SqlDataReader dr = cmd.ExecuteReader();
         while (dr.Read())
@@ -46,7 +72,7 @@ public partial class Default2 : System.Web.UI.Page
             mail.From = fromaddress;
             mail.To.Add(email);
             mail.Subject = "Forest Fire in Your Area";
-            mail.Body = "<html><head><title></title></head><body><p>There is a fire in your city look at in our website and aware others also</p></body></html> ";
+            mail.Body = "<html><head><title></title></head><body><p>There is a fire in your city look at in our website and aware others also.</p></body></html> ";
             mail.IsBodyHtml = true;
             smtpclient.EnableSsl = true;
             smtpclient.DeliveryMethod = SmtpDeliveryMethod.Network;
@@ -60,5 +86,10 @@ public partial class Default2 : System.Web.UI.Page
 
 
         }
+    }
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/index.aspx");
     }
 }

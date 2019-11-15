@@ -155,10 +155,11 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
                     count=value.length;
                     country=value[count-1];
-                    state=value[count-2];
+                    state = value[count-2];
                     city = value[count - 3];
-                    x.value = city;
-                  console.log("city name is: " + city);
+                    var y = results[0].address_components[1].short_name;
+                    x.value = y;
+                    console.log("city name is: " +y);
                 }
                 else {
                     console.log("address not found");

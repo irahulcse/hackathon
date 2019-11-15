@@ -121,13 +121,13 @@
             <br />
             <br />
             <br />
-            <span class="auto-style6">USERNAME</span></span></span></strong><span class="auto-style12"><strong>&nbsp;&nbsp;&nbsp;</strong></span>&nbsp; <asp:TextBox ID="TextBox1" runat="server" Width="180px" style= Height="17px"></asp:TextBox>
+            <span class="auto-style6">USERNAME</span></span></span></strong><span class="auto-style12"><strong>&nbsp;&nbsp;&nbsp;</strong></span>&nbsp; <asp:TextBox ID="TextBox1" runat="server" Width="180px"  BackColor="Silver" style= Height="17px" ></asp:TextBox>
             <br />
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><span class="auto-style12"> <span class="auto-style3">
             <br />
             <span class="auto-style6">PASSWORD</span></span> </span> </strong><span class="auto-style12"><strong>&nbsp;&nbsp;&nbsp;</strong></span>&nbsp;
-            <asp:TextBox ID="Textbox2" runat="server" Width="180px" Height="17px" TextMode="Password"></asp:TextBox>
+            <asp:TextBox ID="Textbox2" runat="server" Width="180px" Height="17px" BackColor="Silver" TextMode="Password"></asp:TextBox>
             &nbsp;
             <br />
             <br />
