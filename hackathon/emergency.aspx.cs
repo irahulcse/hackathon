@@ -44,7 +44,7 @@ public partial class Default4 : System.Web.UI.Page
             con = new SqlConnection(conn);
 
             con.Open();
-            string sql = "INSERT INTO emergency VALUES(@name, @email,@mobile,@image,@lat,@long,@descr,@address) SELECT @@IDENTITY";
+            string sql = "INSERT INTO emergency VALUES(@name, @email,@mobile,@image,@lat,@long,@descr,@address,@date) SELECT @@IDENTITY";
             SqlCommand cmd = new SqlCommand(sql, con);
             cmd.Parameters.AddWithValue("@name", TextBox1.Text.Trim());
             cmd.Parameters.Add("@email", SqlDbType.VarChar, 50).Value = TextBox2.Text;
@@ -54,6 +54,7 @@ public partial class Default4 : System.Web.UI.Page
             cmd.Parameters.Add("@long", SqlDbType.Float).Value = Hh.Value;
             cmd.Parameters.Add("@descr", SqlDbType.VarChar, 500).Value = TextBox4.Text;
             cmd.Parameters.Add("@address", SqlDbType.VarChar, 50).Value = x.Value;
+            cmd.Parameters.Add("@date", SqlDbType.Date).Value = DateTime.Now.ToShortDateString();
             cmd.ExecuteNonQuery();
             lblResult.Text = "Saved Suceesfully";
             //int id = Convert.ToInt32(cmd.ExecuteScalar());

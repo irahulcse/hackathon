@@ -1,5 +1,5 @@
 ﻿
-<%@ Page Language="C#" AutoEventWireup="true" CodeFile="emergency.aspx.cs" Inherits="Default4" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="emergency.aspx.cs" Inherits="Default4" MaintainScrollPositionOnPostback="true" %>
 
 <!DOCTYPE html>
 
@@ -175,11 +175,9 @@ var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 </script>
              <br />
              <br />
-
              <br />
-             <br />
-             <br />
-             <br />
+            <br />
+             
 </div>
                 
          <div class="auto-style1">
