@@ -52,7 +52,8 @@ public partial class Default2 : System.Web.UI.Page
 
     protected void Button1_Click(object sender, EventArgs e)
     {
-        SqlCommand cmd = new SqlCommand(" select DISTINCT t.email from register_hck t,emergency t1 where t.address=t1.address union select DISTINCT t1.email from register_hck t, emergency t1 where t.address = t1.address ", con);
+        SqlCommand cmd = new SqlCommand(" select DISTINCT t.email from register_hck t where t.address=@address union select DISTINCT t1.email from emergency t1 where t1.address = @address ", con);
+        cmd.Parameters.Add("@address",SqlDbType.VarChar,50).Value= DropDownList1.SelectedValue.ToString();
         ArrayList emailArray = new ArrayList();
         SqlDataReader dr = cmd.ExecuteReader();
         while (dr.Read())
@@ -91,5 +92,10 @@ public partial class Default2 : System.Web.UI.Page
     protected void Button2_Click(object sender, EventArgs e)
     {
         Response.Redirect("~/index.aspx");
+    }
+
+    protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
     }
 }

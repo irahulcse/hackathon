@@ -54,9 +54,10 @@ public partial class Default4 : System.Web.UI.Page
             cmd.Parameters.Add("@long", SqlDbType.Float).Value = Hh.Value;
             cmd.Parameters.Add("@descr", SqlDbType.VarChar, 500).Value = TextBox4.Text;
             cmd.Parameters.Add("@address", SqlDbType.VarChar, 50).Value = x.Value;
-            cmd.Parameters.Add("@date", SqlDbType.Date).Value = DateTime.Now.ToShortDateString();
+            cmd.Parameters.Add("@date", SqlDbType.Date).Value = DateTime.Now.ToUniversalTime();
             cmd.ExecuteNonQuery();
-            lblResult.Text = "Saved Suceesfully";
+            lblResult.Text = "Saved Sucessfully";
+            cmd.Dispose();
             //int id = Convert.ToInt32(cmd.ExecuteScalar());
             //lblResult.Text = String.Format("Employee ID is {0}", id);
             // Response.Redirect("Handler.ashx");
@@ -67,7 +68,8 @@ public partial class Default4 : System.Web.UI.Page
             lblResult.Text = "There was an error";
         }
         finally
-        {            
+        {
+            
             con.Close();
         }
     }
