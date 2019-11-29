@@ -14,7 +14,7 @@ using System.IO;
 using System.Drawing;
 using System.Drawing.Imaging;
 
-public partial class Default2 : System.Web.UI.Page
+public partial class Admin_fire : System.Web.UI.Page
 {
     SqlConnection con = new SqlConnection();
     SqlCommand com;
@@ -26,34 +26,12 @@ public partial class Default2 : System.Web.UI.Page
             con.Open();
         }
 
-        //var str = "select * from emergency";
-        //com = new SqlCommand(str, con);
-        //MemoryStream stream = new MemoryStream();
-        //byte[] image = (byte[])com.ExecuteScalar();
-        //stream.Write(image, 0, image.Length);
-        //Bitmap bitmap = new Bitmap(stream);
-        //Response.ContentType = "image/Jpeg";
-        //bitmap.Save(Response.OutputStream, ImageFormat.Jpeg);
-        //con.Close();
-        //stream.Close();
     }
-
-    //protected void grd_RowDataBound(object sender, GridViewRowEventArgs e)
-    //{
-    //    if (e.Row.RowType == DataControlRowType.DataRow)
-    //    {
-    //        System.Web.UI.HtmlControls.HtmlImage imageControl = (System.Web.UI.HtmlControls.HtmlImage)e.Row.FindControl("imageControl");
-    //        if (((DataRowView)e.Row.DataItem)["image"] != DBNull.Value)
-    //        {
-    //            imageControl.Src = "data:image/png;base64," + Convert.ToBase64String((byte[])(((DataRowView)e.Row.DataItem))["image"]);
-    //        }
-    //    }
-    //}
 
     protected void Button1_Click(object sender, EventArgs e)
     {
         SqlCommand cmd = new SqlCommand(" select DISTINCT t.email from register_hck t where t.address=@address union select DISTINCT t1.email from emergency t1 where t1.address = @address ", con);
-        cmd.Parameters.Add("@address",SqlDbType.VarChar,50).Value= DropDownList1.SelectedValue.ToString();
+        cmd.Parameters.Add("@address", SqlDbType.VarChar, 50).Value = DropDownList1.SelectedValue.ToString();
         ArrayList emailArray = new ArrayList();
         SqlDataReader dr = cmd.ExecuteReader();
         while (dr.Read())
@@ -83,9 +61,6 @@ public partial class Default2 : System.Web.UI.Page
             dr.Close();
             con.Close();
 
-
-
-
         }
     }
 
@@ -99,3 +74,4 @@ public partial class Default2 : System.Web.UI.Page
 
     }
 }
+
