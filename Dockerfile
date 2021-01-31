@@ -1,17 +1,7 @@
-#
-# Dockerfile for an alpine-based python container for python-vipaccess
-#
-# Create named image to make it easier to refer to
-#     "docker build . -t python-vipaccess"
-# Run vipaccess to generate tokens with 
-#     "docker run python-vipaccess provision -p"
-# Generate ANSI graphics QR code from generated otpauth string
-#     "docker run --entrypoint "qrencode" python-vipaccess -t ANSI256 <otpauth://...>"
-#
 
 FROM python:3-alpine
 
-LABEL maintainer "Kayvan Sylvan <kayvansylvan@gmail.com>"
+LABEL maintainer "Rahul Chandra <1rahulchandra1@gmail.com>"
 
 COPY . /usr/src/
 WORKDIR /usr/src
